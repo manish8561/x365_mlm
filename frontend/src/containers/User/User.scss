@@ -1,0 +1,365 @@
+input, button{
+    outline: none !important; 
+}
+.loginContainer{
+    height: 100vh;
+    background:#0b071f url(../../images/bg_login.jpg) right bottom no-repeat ;
+    background-size: cover; 
+    @media(max-width:1400px){
+    .ui.container{
+        width: 100%;
+        max-width: 960px !important;
+        @media(max-width:980px){
+            width: 98%;
+        }
+    }    
+    }    
+    &.ui.container{
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+    .ui.input{width: 100%;}
+}
+.main_loginForm{
+    position: absolute;
+    left:0;
+    right: 0;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    top:50%;
+    transform: translateY(-50%);
+    @media(max-width:1400px){
+        transform: translateY(-56%);
+    }
+    @media(max-width:980px){
+        position: relative;
+        top:0px;
+        transform: translateY(0);
+        padding-top: 50px;
+    }
+    .loginForm{
+        margin-top: 122px;
+        box-shadow:none;
+        border-radius: 10px;
+        overflow: hidden;
+
+        @media(max-width: 980px){
+            flex-direction: column;
+        }
+    }
+    .logoStyle{
+        margin-bottom: 20px;
+        width: 261px;
+
+       @media(max-width:1400px){
+            margin-bottom: 6px;
+            width: 200px;
+       }
+       @media(max-width:980px){
+        margin-bottom: 6px;
+        width: 360px;
+   }
+    } 
+
+    @media(max-width:980px){
+    .ui.column.grid>[class*="six wide"].column, 
+    .ui.grid>.column.row>[class*="six wide"].column, .ui.grid>.row>[class*="six wide"].column, 
+    .ui.grid>[class*="six wide"].column{
+        width: 100% !important;
+    }
+    .ui.column.grid>[class*="ten wide"].column, 
+    .ui.grid>.column.row>[class*="ten wide"].column, 
+    .ui.grid>.row>[class*="ten wide"].column, 
+    .ui.grid>[class*="ten wide"].column{
+        width: 100% !important;
+    }
+    }
+
+    .six.column.loginform_left{
+        background: #121414;
+        padding:60px 30px;
+
+        @media(max-width:1400px){
+            padding:30px;
+        }
+        @media(max-width:960px){
+            padding:15px;
+        }
+        @media(max-width:812px){
+            width: 100% !important;
+        }
+
+    
+        h2.loginTitle, h2.ui.header.loginTitle{
+            color:#fff;
+            font-size: 24px;
+            font-weight: 400;
+            text-transform: uppercase;
+            text-align: center;
+            margin-bottom: 46px;
+
+            @media(max-width:1400px){
+                font-size: 18px;
+            }
+            @media(max-width:980px){
+                font-size: 36px;
+            }  
+
+            .sub.header{
+                margin-top: 15px;
+                color:#fff;
+                font-size: 16px;
+                text-transform: none;
+                @media(max-width:980px){
+                    font-size: 30px;
+                } 
+            }
+        }
+        .ui.form{
+            .field{
+                input{
+                    font-size: 16px;
+                    color:#fff;
+                    background:#08090a;
+                    text-align: center;
+                    height: 54px;
+                    border-radius: 25px;
+
+                    &:focus{
+                        background: #000;
+                    }
+                    
+                    @media(max-width:1400px){
+                        height: 41px;
+                        font-size: 14px;
+                    }
+                    @media(max-width:980px){
+                        height: 81px;
+                        font-size: 28px;
+                    }
+                }
+
+                &.loginBtn{
+                    text-align: center;
+
+                    button{
+                        margin-top: 10px;
+                        font-size: 16px;
+                        width: 156px;
+                        text-transform: uppercase;
+                        font-weight: 400;
+                        background:#feaa00;
+                        border:1px solid #feaa00;
+                        height:44px;
+                        border-radius:25px;
+                        color:#000000;
+
+                        @media(max-width:980px){
+                            font-size: 32px;
+                            width: 212px;
+                            height: 88px;
+                            border-radius: 55px;
+                        }
+                    }
+                }
+            }
+
+        }
+        h4.totalUsers, h4.ui.header.totalUsers{
+            margin-top: 106px;
+            text-align: center;
+            font-size: 16px;
+            color: #acacac;
+            font-weight: 400;
+            .sub.header{
+                margin-top: 15px;
+                color:#2e77bc;
+                font-size: 36px;
+                text-transform: none;
+            }
+        }          
+    }
+    .ten.column.loginform_Right{
+        padding:60px 123px;
+        background-color: #08090a;
+
+        @media(max-width:1400px){
+            padding:30px 60px;
+        }
+        @media(max-width:980px){
+            padding:15px 20px;
+        }
+
+        h2.regTitle, h2.ui.header.regTitle{
+            color:#fff;
+            font-size: 24px;
+            font-weight: 400;
+            text-transform: uppercase;
+            margin-bottom: 26px;  
+            @media(max-width:1400px){
+                font-size: 18px;
+            } 
+            @media(max-width:980px){
+                font-size: 36px;
+            }       
+          
+        }
+        .ui.form{
+            .field{
+                @media(max-width:980px){
+                    margin-bottom: 40px;
+                }
+                label{
+                   font-size: 16px;
+                   color: #a6a6a6;
+                   font-weight: 400; 
+                   margin-bottom: 5px;
+                   small{
+                       a{
+                           color:#ffa100;
+                       }
+                   }
+                   @media(max-width:1400px){
+                        font-size: 14px;
+                    }
+                    @media(max-width:980px){
+                        font-size: 28px;
+                        margin-bottom: 18px;
+                    }
+                 
+                }
+                input{
+                    font-size: 16px;
+                    color:rgba(255, 255, 255, 0.849);
+                    background: #111313;
+                    height: 54px;
+                    border: 0;  
+                    border-radius: 25px;
+                    font-weight: 400;
+                    
+                    &:focus{
+                        background: #dfdfdf;
+                        color:#000;
+                    }
+                    
+                    @media(max-width:1400px){
+                        height: 41px;
+                        font-size: 14px;
+                    }
+                    @media(max-width:980px){
+                        height: 82px;
+                        font-size: 28px;
+                        border-radius: 55px;
+                    }
+                }
+
+                &.loginBtn{
+                    text-align: center;
+
+                    button{
+                        margin-top: 10px;
+                        font-size: 16px;
+                        width: 156px;
+                        text-transform: uppercase;
+                        font-weight: 600;
+                    }
+                }
+                &.regBtn{
+                    text-align: right;
+                    @media(max-width:812px){
+                        text-align: center;
+                    }
+
+                    button{
+                        margin-top: 10px;
+                        font-size: 16px;
+                        width: 100%;
+                        text-transform: uppercase;
+                        font-weight: 400;
+                        background:#fdac00;
+                        border:1px solid #fdac00;
+                        height:44px;
+                        border-radius:25px;
+                        color:#000;
+                        @media(max-width: 980px){
+                            font-size: 32px;
+                            height:88px;
+                            border-radius: 55px;
+                        }
+                    }                   
+                }
+               
+            }
+
+        }
+        .ui.message.messageTransaction{
+            border-width: 0px;
+            box-shadow: none;
+            border-radius: 0;  
+            background-color: transparent;         
+            @media(max-width:1400px){
+                padding:0px;
+            }
+            @media(max-width:980px){
+                margin-bottom: 50px;
+            }
+            .ui.message>.icon {
+                margin-right: 0.2em;
+            }
+            @media(max-width:1400px){
+                i.icon{
+                    margin-right: 10px;
+                }
+            }
+            i.icon.inbox:before {
+                display: block;
+                content: '';
+                background: url(../../images/icon_transSuccess.svg) no-repeat !important;
+                width:54px;
+                height: 54px;
+                @media(max-width:1400px){
+                    width: 40px;
+                    height: 40px;
+                    background-size: 100% !important;
+                }
+            }
+            .header{
+                font-size: 18px;
+                color: #fff;
+                font-weight: 400;
+                @media(max-width:1400px){
+                    font-size: 14px;
+                }
+                @media(max-width:980px){
+                    font-size: 28px;
+                    line-height: normal;
+                }
+            }
+        }
+    }
+}
+.msg {
+    border-radius: 2px;
+    padding: 8px;    
+    text-align: center;
+    color: #fff;
+}
+.scuess {
+    border: 1px solid rgb(80, 235, 9);
+    border-radius: 2px;
+    padding: 8px;
+    background: #fff;
+    text-align: center;
+}
+.blockDiv {
+   display: none;
+}
+.closeBtn {
+    float: right;
+    margin-right: 11px;
+    color: #fff;
+    display: none;
+    @media(max-width: 980px){
+        display: block;
+    }
+}

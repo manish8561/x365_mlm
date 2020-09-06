@@ -1,0 +1,167 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.loginBoxMain{
+  width: 800px !important;
+  padding:50px 30px;
+  box-shadow:  0px 0px 5px #fff;
+  border-radius: 15px;
+  background: #fff;
+  
+}
+.loginBoxMain h3{ 
+    margin-bottom: 40px !important;
+    color: #000;
+    font-size: 30px;
+    text-align: center;
+}
+#title {
+  text-align: center;
+  font-family: arial, sans-serif;
+}
+.studentOut{
+  overflow: auto;
+  height: calc(100% - 60px);
+}
+#students {
+  text-align: left;
+  font-family: 'Open Sans', sans-serif;
+  border-collapse: collapse;
+  border: 0px;
+  width: 100%;
+}
+
+#students td, #students th {
+  border:0px;
+  padding: 8px;
+  font-weight: 600;
+  color: #fff;
+}
+#students td{
+  padding:23px 8px;
+}
+@media(max-width:1366px){
+  #students td{
+    padding:11px 4px;
+    font-size: 12px;
+  }
+}
+#students tr:nth-child(even) {
+    background-color:rgba(161, 15, 15, 0.2);
+}
+
+#students tbody tr:hover {background-color: #525252; opacity:06;}
+
+#students th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background: transparent;
+}
+
+@media(max-width:812px){
+.studentOut{
+  height: auto;
+  overflow: unset;
+}
+.studentOut table {
+      border: 0;
+    }
+  
+.studentOut table thead {
+      border: none;
+      clip: rect(0 0 0 0);
+      height: 1px;
+      margin: -1px;
+      overflow: hidden;
+      padding: 0;
+      position: absolute;
+      width: 1px;
+    }
+    
+  .studentOut table tr {
+      border-bottom: 3px solid #ddd;
+      display: block;
+      margin-bottom: .625em;
+    }
+    
+.studentOut table td {
+      border-bottom: 1px solid #ddd;
+      display: block;
+      font-size: .8em;
+      text-align: right;
+    }
+    
+.studentOut table td::before {
+      /*
+      * aria-label has no advantage, it won't be read inside a table
+      content: attr(aria-label);
+      */
+      content: attr(data-label);
+      float: left;
+      font-weight: bold;
+      text-transform: uppercase;
+      margin-right: 10px;
+      color: #2e77bc;
+    }
+    
+.studentOut table td:last-child {
+      border-bottom: 0;
+    }
+.colAddress{
+  word-break: break-all;
+} 
+
+}
+.overlayDiv {
+    position: fixed;
+    opacity: 0.4;
+    width: 100%;
+    height: 100%;
+    background: black;
+    z-index: 9999;
+}
+.overlayDiv div{
+    position: relative; 
+    top: 30%;
+    left: 45%;
+}
+.form__field-error{
+  color:red;
+}

@@ -1,0 +1,66 @@
+{
+  "name": "ethdapp_frontend",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "/",
+  "dependencies": {
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.5.0",
+    "@testing-library/user-event": "^7.2.1",
+    "@walletconnect/qrcode-modal": "^1.0.0-beta.47",
+    "@walletconnect/web3-provider": "^1.0.0-beta.47",
+    "axios": "^0.19.2",
+    "cogo-toast": "^4.2.3",
+    "connected-react-router": "^6.8.0",
+    "crypto-js": "^4.0.0",
+    "ethereumjs-tx": "^2.1.2",
+    "history": "^4.10.1",
+    "html-react-parser": "^0.13.0",
+    "node-sass": "^4.14.1",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-loader-spinner": "^3.1.14",
+    "react-redux": "^7.2.0",
+    "react-router": "^5.2.0",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "^3.4.3",
+    "redux": "^4.0.5",
+    "redux-form": "^8.3.6",
+    "redux-form-validators": "^3.3.2",
+    "redux-persist": "^6.0.0",
+    "redux-thunk": "^2.3.0",
+    "semantic-ui-css": "^2.4.1",
+    "semantic-ui-react": "^0.88.2",
+    "socket.io-client": "^2.3.0",
+    "web3": "^1.2.8"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "start:staging": "env-cmd -f .env.staging react-scripts start ",
+    "start:production": "env-cmd -f .env.production react-scripts start ",
+    "build:staging": "env-cmd -f .env.staging react-scripts build",
+    "build:dev": "env-cmd -f .env.development react-scripts build",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "env-cmd": "^10.1.0",
+    "redux-devtools-extension": "^2.13.8"
+  }
+}

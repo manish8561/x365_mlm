@@ -1,0 +1,256 @@
+@font-face {
+    font-family: 'Avenir Next LT Pro Light Cond';
+    src: url('AvenirNextLTPro-LtCnIt.woff2') format('woff2'),
+        url('AvenirNextLTPro-LtCnIt.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Avenir Next LT Pro Demi';
+    src: url('AvenirNextLTPro-Demi.woff2') format('woff2'),
+        url('AvenirNextLTPro-Demi.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Avenir Next LT Pro';
+    src: url('AvenirNextLTPro-Light.woff2') format('woff2'),
+        url('AvenirNextLTPro-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Avenir Next LT Pro';
+    src: url('AvenirNextLTPro-LightItalic.woff2') format('woff2'),
+        url('AvenirNextLTPro-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Avenir Next LT Pro Cond';
+    src: url('AvenirNext-CondItalic.woff2') format('woff2'),
+        url('AvenirNext-CondItalic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Avenir Next Pro Ultralight Cond';
+    src: url('AvenirNextPro-UltralighCondIt.woff2') format('woff2'),
+        url('AvenirNextPro-UltralighCondIt.woff') format('woff');
+    font-weight: 200;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Avenir Next LT Pro Demi Cond';
+    src: url('AvenirNext-DemiCondItalic.woff2') format('woff2'),
+        url('AvenirNext-DemiCondItalic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Avenir Next LT Pro Demi Cond';
+    src: url('AvenirNext-DemiCond.woff2') format('woff2'),
+        url('AvenirNext-DemiCond.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Avenir Next LT Pro';
+    src: url('AvenirNextLTPro-BoldItalic.woff2') format('woff2'),
+        url('AvenirNextLTPro-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Avenir Next LT Pro';
+    src: url('AvenirNextLTPro-Ultralight.woff2') format('woff2'),
+        url('AvenirNextLTPro-Ultralight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Avenir Next LT Pro';
+    src: url('AvenirNextLTPro-Thin.woff2') format('woff2'),
+        url('AvenirNextLTPro-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Avenir Next LT Pro';
+    src: url('AvenirNextLTPro-MediumItalic.woff2') format('woff2'),
+        url('AvenirNextLTPro-MediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Avenir Next LT Pro';
+    src: url('AvenirNextLTPro-Medium.woff2') format('woff2'),
+        url('AvenirNextLTPro-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Avenir Next LT Pro Cond';
+    src: url('AvenirNext-CondRegular.woff2') format('woff2'),
+        url('AvenirNext-CondRegular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Avenir Next LT Pro Cond';
+    src: url('AvenirNext-BoldCond.woff2') format('woff2'),
+        url('AvenirNext-BoldCond.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Avenir Next Pro Ultralight Cond';
+    src: url('AvenirNextPro-UltralightCond.woff2') format('woff2'),
+        url('AvenirNextPro-UltralightCond.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Avenir Next LT Pro Demi';
+    src: url('AvenirNextLTPro-DemiItalic.woff2') format('woff2'),
+        url('AvenirNextLTPro-DemiItalic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Avenir Next LT Pro Med Cond';
+    src: url('AvenirNext-MediumCond.woff2') format('woff2'),
+        url('AvenirNext-MediumCond.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Avenir Next LT Pro';
+    src: url('AvenirNextLTPro-Italic.woff2') format('woff2'),
+        url('AvenirNextLTPro-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Avenir Next LT Pro';
+    src: url('AvenirNextLTPro-Heavy.woff2') format('woff2'),
+        url('AvenirNextLTPro-Heavy.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Avenir Next LT Pro Light Cond';
+    src: url('AvenirNextLTPro-LightCond.woff2') format('woff2'),
+        url('AvenirNextLTPro-LightCond.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Avenir Next LT Pro Thin Cond';
+    src: url('AvenirNextLTPro-ThinCondensed.woff2') format('woff2'),
+        url('AvenirNextLTPro-ThinCondensed.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Avenir Next LT Pro';
+    src: url('AvenirNextLTPro-Regular.woff2') format('woff2'),
+        url('AvenirNextLTPro-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Avenir Next LT Pro Thin Cond';
+    src: url('AvenirNextLTPro-ThCnIt.woff2') format('woff2'),
+        url('AvenirNextLTPro-ThCnIt.woff') format('woff');
+    font-weight: 100;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Avenir Next LT Pro';
+    src: url('AvenirNextLTPro-ThinItalic.woff2') format('woff2'),
+        url('AvenirNextLTPro-ThinItalic.woff') format('woff');
+    font-weight: 100;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Avenir Next LT Pro UltLt';
+    src: url('AvenirNextLTPro-UltLtItalic.woff2') format('woff2'),
+        url('AvenirNextLTPro-UltLtItalic.woff') format('woff');
+    font-weight: 200;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Avenir Next LT Pro';
+    src: url('AvenirNextLTPro-HeavyItalic.woff2') format('woff2'),
+        url('AvenirNextLTPro-HeavyItalic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Avenir Next LT Pro Heavy Cond';
+    src: url('AvenirNext-HeavyCondItalic.woff2') format('woff2'),
+        url('AvenirNext-HeavyCondItalic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Avenir Next LT Pro Med Cond';
+    src: url('AvenirNext-MediumCondItalic.woff2') format('woff2'),
+        url('AvenirNext-MediumCondItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Avenir Next LT Pro Heavy Cond';
+    src: url('AvenirNext-HeavyCond.woff2') format('woff2'),
+        url('AvenirNext-HeavyCond.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Avenir Next LT Pro Cond';
+    src: url('AvenirNext-BoldCondItalic.woff2') format('woff2'),
+        url('AvenirNext-BoldCondItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Avenir Next LT Pro';
+    src: url('AvenirNextLTPro-Bold.woff2') format('woff2'),
+        url('AvenirNextLTPro-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+

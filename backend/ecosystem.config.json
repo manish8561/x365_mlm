@@ -1,0 +1,14 @@
+{
+  "apps": [
+    {
+      "name": "x365",
+      "script": "./src/server.ts",
+      "interpreter": "./node_modules/.bin/ts-node",
+      "watch": false,
+      "env": {
+        "PORT": 3001,
+        "NODE_ENV": "stage"
+      }
+    }
+  ]
+}

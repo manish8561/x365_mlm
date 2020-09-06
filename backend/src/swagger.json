@@ -1,0 +1,74 @@
+{
+    "openapi": "3.0.2",
+    "info": {
+        "version": "1.0.0",
+        "title": "Fast Eth api-server",
+        "description": "Backend swagger explorer"
+    },
+    "servers": [
+        {
+            "url": "/api",
+            "description": "Backend API"
+        }
+    ],
+    "tags": [
+        {
+            "name": "Transaction"
+        }
+    ],
+    "paths": {
+        "/Transaction/getAll": {
+            "get": {
+                "tags": [
+                    "Transaction"
+                ],
+                "summary": "Get all Transaction in system",
+                "responses": {
+                    "200": {
+                        "description": "OK"
+                    }
+                }
+            }
+        },
+        "/Transaction/add": {
+            "post": {
+                "tags": [
+                    "Transaction"
+                ],
+                "summary": "Add transaction in system",
+                "requestBody": {
+                    "description": "Transaction encrypted string",
+                    "required": true,
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "type": "string",
+                                "properties": {
+                                    "data": {
+                                        "type": "string"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "responses": {
+                    "200": {
+                        "description": "OK"
+                    },
+                    "400": {
+                        "description": "Failed. Bad post data."
+                    }
+                }
+            }
+        }
+    },
+    "consumes": [
+        "application/json",
+        "application/xml"
+    ],
+    "produces": [
+        "application/xml",
+        "application/json"
+    ]
+}
